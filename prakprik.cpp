@@ -20,3 +20,6 @@ void masukanData(float &berat, float &tinggi) {
 float hitungBMI(float berat, float tinggi) {
     return berat / (tinggi * tinggi);
 }
+float hitungBMI(float berat, float tinggi) {
+    return berat / (tinggi * tinggi);
+}
