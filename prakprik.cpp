@@ -34,3 +34,12 @@ string cekKondisi(float bmi) {
         return "Obesitas";
     }
 }
+
+int main() {
+    float berat, tinggi, hasilBMI;
+
+    masukanData(berat, tinggi);
+    hasilBMI = hitungBMI(berat, tinggi);
+
+    return 0;
+}
